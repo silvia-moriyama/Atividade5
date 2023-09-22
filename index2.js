@@ -11,7 +11,7 @@ arrayPrint.forEach(function(linha){
     if (coluna >= 10) {
         arrayMaior10.push(coluna)
     }
-})
+  })
 
 })
 
