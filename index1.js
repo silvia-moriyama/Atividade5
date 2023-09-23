@@ -4,7 +4,7 @@
   }
 
   function desconto(valorTotal, perDesconto) {
-    return (Number(valorTotal) * (1 - (Number(perDesconto)/100))).toFixed(2)
+    return (Number(valorTotal) * (1 - (Number(perDesconto)/100)))
 }
   
   const valorProduto = 500
